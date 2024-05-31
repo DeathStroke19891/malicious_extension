@@ -1,0 +1,8 @@
+# Attach to the running container with
+
+docker exec -t <container_id> 'bash'
+
+
+# In the shell, after Tor finishes bootstrapping 100%, run
+
+chmod +x /var/lib/tor/ctf

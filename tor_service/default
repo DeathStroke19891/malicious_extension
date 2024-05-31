@@ -1,0 +1,9 @@
+server {
+        listen 34002 ;
+        listen [::]:34002 ;
+        root /var/lib/tor/hitman ;
+        index index.html;
+        location / {
+                try_files $uri $uri/ =404 ;
+        }
+}
