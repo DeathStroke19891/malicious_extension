@@ -1,0 +1,20 @@
+{
+    "name": "Innocent.AI",
+    "description": "An AI which reads the content of your webpages and provides a summary",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "debugger",
+        "activeTab",
+        "scripting",
+        "webNavigation",
+        "webRequest",
+        "cookies"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}
