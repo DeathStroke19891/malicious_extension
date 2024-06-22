@@ -1,0 +1,3 @@
+[submodule "website/innocent_ai_extension"]
+	path = website/innocent_ai_extension
+	url = git@github.com:DeathStroke19891/innocent_ai_extension.git
